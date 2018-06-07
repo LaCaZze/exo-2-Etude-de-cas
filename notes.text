@@ -1,0 +1,14 @@
+1 - crée une page html avec : 
+    un menu
+    un slider
+    une liste de compétences
+
+2 - Application pour FAIRE et classer quoi --> des compétences informatiques
+
+    Pour faire çà il faut : 
+
+    2.1 - crée le fichier de compétences. Ici un fichier de type JSON avec les compétences a l'intérieur. Les compétence doivent être classer dans le désordre.
+
+    2.2 - Afin d'organiser le classement, il faut attribuer un système de notation par étoiles
+
+    2.3 - l'affichage doit se faire, du plus maitrisé au moins maitrisé

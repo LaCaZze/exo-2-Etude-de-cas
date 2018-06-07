@@ -1,0 +1,22 @@
+{
+  "name": "exo-2-etude-de-cas",
+  "version": "1.0.0",
+  "description": "Dans un site web en construction le client veux faire apparaître une liste de compétences.",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soobik/exo-2-Etude-de-cas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soobik/exo-2-Etude-de-cas/issues"
+  },
+  "homepage": "https://github.com/soobik/exo-2-Etude-de-cas#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
