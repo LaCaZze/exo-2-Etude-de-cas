@@ -1,18 +1,28 @@
 
-$(document).ready(function(){
+$(document).ready(function () {
     $.ajax({
         url: 'http://localhost:3766/liste',
         type: 'GET',
 
-        success: function(data){
-            for (var valeur in data){
-            $('#presentationListe').append('<li>' + data[valeur].competence + ' ' +  data[valeur].niveau + '</li>');
-            console.log(data[valeur]);
+        success: function (data) {
+            for (var valeur in data) {
+                $('#presentationListe').append('<li>' + data[valeur].competence + ' ' + data[valeur].niveau + '</li>');
+                console.log(data[valeur]);
             }
         }
 
     });
 
+
+    //to do : ajouter les étoiles en fonction du niveau
+
+    var niveau = etoile();
+
+    function etoile(nombre) {
+        
+
+        return
+    }
 
 
 });
