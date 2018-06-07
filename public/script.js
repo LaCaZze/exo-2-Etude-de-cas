@@ -6,9 +6,9 @@ $(document).ready(function(){
 
         success: function(data){
             for (var valeur in data){
-            // $('#presentationListe').append();
+            $('#presentationListe').append('<li>' + data[valeur].competence + '</li>');
             console.log(data[valeur]);
-            };
+            }
         }
 
     });
