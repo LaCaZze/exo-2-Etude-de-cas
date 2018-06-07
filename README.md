@@ -6,7 +6,7 @@ Le client souhaite avoir un site en one page. Pour le moment il veut un menu, un
 
 Le client va revenir vers vous avec des demandes complémentaires.
 
-#####
+
 En utilisant vos connaissances acquises il vous faut faire une application qui permet de consulter un classement de compétences informatiques.
 
 - Le fichier JSON doit comporter au minimum 10 compétences.
