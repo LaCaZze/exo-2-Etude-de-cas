@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         success: function(data){
             for (var valeur in data){
-            $('#presentationListe').append('<li>' + data[valeur].competence + '</li>');
+            $('#presentationListe').append('<li>' + data[valeur].competence + ' ' +  data[valeur].niveau + '</li>');
             console.log(data[valeur]);
             }
         }
